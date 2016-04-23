@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+
+    <h1>Hej, prijatelj!</h1>
+    
+    <p>
+    Izberi dve števili in operacijo in naš preprost računalnik ti bo vrnil rezultat!
+    </p>
+
+<form method="post" action="/rezultat">
+        <p>
+            Prvo število:
+            <input name="st_1">
+        </p>
+        <p>
+            Drugo število:
+            <input name="st_2">
+        </p>
+        <p>
+            Izbrana operacija (deljenje, mnozenje, sestevanje, odstevanje):
+            <input name="operacija">
+        </p>
+        <p>
+            <button type="submit">Izračunaj</button>
+     
+        </p>
+    </form>
+    
+</body>
+</html>
+
